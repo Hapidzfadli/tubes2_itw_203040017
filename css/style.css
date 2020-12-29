@@ -599,4 +599,7 @@ a {
     .brand-logo i {
         display: none;
     }
+    #about {
+    overflow: hidden;
+}
   }
