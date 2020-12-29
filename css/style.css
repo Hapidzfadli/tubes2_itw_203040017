@@ -596,4 +596,7 @@ a {
     .contact-form .container .contactForm .formBox .inputBox input[type="submit"]{
         margin-left: 28%;
     }
+    .brand-logo i {
+        display: none;
+    }
   }
