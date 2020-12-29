@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+nav .brand-logo span {
+    font-family: 'Langar', cursive;
+}
+a {
+    text-decoration: none;
+}
+.fab {
+    line-height: 56px;
+}
+.colr {
+    filter: blur(1.5px);
+}
+
+.kartu {
+    position: relative;
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    transform: perspective(2000px);
+    transform-style: preserve-3d;
+    transition: 1s;
+    box-shadow: inset 300px 0 50px rgba(0, 0 , 0, .5);
+}  
+.kartu:hover {
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0 , 0, .5);
+}
+.kartu .gambar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(26, 25, 25);
+    box-sizing: border-box;
+    transform-origin: right;
+    z-index: 1;
+    transition: 1s;
+}
+.kartu:hover .gambar {
+    transform: rotateY(135deg);
+}
+.kartu .gambar .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kartu .detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.parallax-container {
+    height: 300px;
+}
+.parallax img {
+    width: 100%;
+    filter: grayscale(70%);
+    opacity: 0.9 !important;
+}
+.client h3 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+.client img {
+    margin-top: 40px;
+    max-width: 200px;
+    filter: drop-shadow(1px 1px 1px rgba(255, 250, 250, 0.5));
+}
+.clientBox {
+    position: relative;
+    transform-style: preserve-3d;
+}
+.clientBox:hover {
+    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.2);
+}
+.clientBox .clImgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.academy a {
+    font-weight: 500;
+}
